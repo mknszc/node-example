@@ -7,8 +7,8 @@ function firstOperatioon() {
 
 function secondOperation() {
     setTimeout(function () {
-        let i = 0;
 
+        let i = 0;
         while(i < 10E9) {
             i++
         }

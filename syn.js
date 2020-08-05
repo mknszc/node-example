@@ -7,7 +7,6 @@ function firstOperatioon() {
 
 function secondOperation() {
     let i = 0;
-
     while(i < 10E9) {
         i++
     }
