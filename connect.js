@@ -11,13 +11,13 @@ function headInfo(request, response, next) {
 
 app.use(headInfo);
 
-app.use('/home', function (request, response, next) {
+app.use('/home', function (request, response) {
     response.write('Home Page');
 
     response.end();
 });
 
-app.use('/contact', function (request, response, next) {
+app.use('/contact', function (request, response) {
     response.write('Contact Page');
 
     response.end();
