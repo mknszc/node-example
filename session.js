@@ -29,6 +29,7 @@ app.get('/remove', function (req, res) {
     }
 
     res.send('Session not found');
+
     res.end();
 });
 
