@@ -22,7 +22,7 @@ app.get('/read', function (req, res) {
 });
 
 app.get('/remove', function (req, res) {
-    if (req.session.name)  {
+    if (req.session.name) {
         req.session.destroy();
         return res.send('Session removed');
     }
