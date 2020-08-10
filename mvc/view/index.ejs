@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Kişiler</title>
+</head>
+<body>
+<ul>
+    <% for(let i = 0; i < list.length; i++) { %>
+    <li><a href="/kisi/<%=list[i].id%>"><%=list[i].personName()%> <%=list[i].personSurname()%></a></li>
+    <% } %>
+</ul>
+</body>
+</html>
